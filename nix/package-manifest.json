@@ -9,7 +9,7 @@
   "binary": {
     "name": "plot",
     "upstreamName": "plot",
-    "entrypoint": "dist/cli.js",
+    "entrypoint": "src/index.ts",
     "aliases": [
       "pt"
     ]
