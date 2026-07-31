@@ -1,0 +1,26 @@
+{
+  "stubbed": false,
+  "package": {
+    "repo": "plot-cli",
+    "npmName": "@os-eco/plot-cli",
+    "version": "0.4.1",
+    "packageRevision": 1
+  },
+  "binary": {
+    "name": "plot",
+    "upstreamName": "plot",
+    "entrypoint": "dist/cli.js",
+    "aliases": [
+      "pt"
+    ]
+  },
+  "meta": {
+    "description": "Typed, queryable, JSON-backed coordination object for multi-agent work",
+    "homepage": "https://github.com/jayminwest/plot",
+    "licenseSpdx": "MIT"
+  },
+  "dist": {
+    "url": "https://registry.npmjs.org/@os-eco/plot-cli/-/plot-cli-0.4.1.tgz",
+    "hash": "sha512-xz5XspzS+pOyP4pvgeickX15OVFhfBSDZhNRcboRjvWor+CK2WblThmu+0J0ejyVpAoQxNbMqpn7TAP04E9ESQ=="
+  }
+}

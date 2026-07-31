@@ -1,0 +1,20 @@
+{
+  "name": "@os-eco/plot-cli-nix",
+  "type": "module",
+  "version": "0.4.1",
+  "description": "Nix packaging scaffold for @os-eco/plot-cli",
+  "license": "MIT",
+  "scripts": {
+    "show-manifest": "bun --eval \"console.log(await Bun.file('nix/package-manifest.json').text())\"",
+    "sync:source": "bun run sync:npm-source",
+    "sync:manifest": "bun run sync:npm-source",
+    "sync:npm-source": "bun run scripts/sync-from-npm.ts",
+    "postinstall": "bun x bun2nix -o bun.nix"
+  },
+  "dependencies": {
+    "@os-eco/plot-cli": "0.4.1"
+  },
+  "devDependencies": {
+    "bun2nix": "2.0.8"
+  }
+}
