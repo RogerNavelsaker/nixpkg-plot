@@ -45,7 +45,6 @@
         default = pkgs.mkShell {
           packages = with pkgs; [
             bun
-            bun2nix
             jq
             nixfmt-rfc-style
           ];
